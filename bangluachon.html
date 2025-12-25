@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="vi">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -43,7 +43,7 @@
       }
 
       body {
-        font-family: 'Courier New', 'Microsoft YaHei', monospace;
+        font-family: 'Courier New', 'Segoe UI', 'Roboto', sans-serif;
         color: var(--px-text);
         padding: 6px;
         background: transparent;
@@ -301,7 +301,7 @@
         <div class="options-header">
           <div class="header-left">
             <div class="options-icon">💬</div>
-            <div class="options-title">Tùy chọn trả lời nhanh</div>
+            <div class="options-title">TÙY CHỌN TRẢ LỜI NHANH</div>
           </div>
           <button class="theme-toggle" onclick="toggleTheme(event)">🌓</button>
         </div>
@@ -317,7 +317,7 @@
         if (typeof triggerSlash === 'function') {
           triggerSlash(`/send ${text}|/trigger`);
         } else {
-          console.log('SillyTavern environment not detected. Would send:', text);
+          console.log('Không phát hiện môi trường SillyTavern. Sẽ gửi:', text);
         }
       };
 
